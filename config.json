@@ -1,0 +1,24 @@
+{
+    "name"       : "Confidential Checker",
+    "guid"       : "asc.{5E31BB63-A87B-9F69-962B-2EAF1BA250FE}",
+    "version"    : "1.0",
+	
+    "variations" : [
+        {
+            "description"         : "Watermark confidential documents",
+            "url"                 : "index.html",
+            "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
+			"isViewer"            : true,
+            "EditorsSupport"	  : [ "word", "cell", "slide" ],
+			"isSystem"			  : true,
+            "isVisual"            : false,
+            "isModal"             : false,
+            "isInsideMode"        : false,
+            "initDataType"        : "none",
+            "initData"            : "",
+            "buttons"             : [],
+			
+			"events" : ["onDocumentContentReady"]
+        }
+    ]
+}
